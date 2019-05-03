@@ -1,3 +1,109 @@
-/* CSS here */
+body {
+    margin: 0;
+}
 
-body{}
+.head {
+    display: block;
+    background-image: url("../images/expedition_hero.jpg");
+    background-color: #cccccc;
+    width: 1440px;
+    height: 578px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    margin: 0 auto;
+}
+
+.head nav {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding-top: 100px;
+    align-items: center;
+}
+
+.head > nav img {
+    width: 25px;
+}
+
+.head > nav form input {
+    border-radius: 10px;
+    width: 100px;
+}
+
+.head > nav a{
+    text-decoration: none;
+    color: white;
+}
+
+.head > nav a:hover {
+    background-color: green;
+}
+
+.nav-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 100px;
+    background: linear-gradient(gray, rgb(54, 54, 54));
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+}
+
+.first {
+    border-left: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.last {
+    border-right: none;
+    width: 150px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.titles {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.titles p {
+    color: rgba(255, 255, 255, 0.788);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+}
+
+.titles p:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.subtitle {
+    position: relative;
+    top: -14px;
+}
+
+.promo {
+    display: flex;
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.promo a {
+    width: 25%;
+}
+
+footer {
+    display: block;
+    width: 1440px;
+    text-align: center;
+    margin: auto;
+    line-height: 10px;
+    font-size: 12px;
+}
